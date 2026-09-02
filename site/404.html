@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Plecak kryzysowy na 72 godziny: checklista z wagą, profil domu, daty ważności i tryb ewakuacji."
+    />
+    <meta name="theme-color" content="#FFCA10" />
+    <meta property="og:title" content="72h — Plecak kryzysowy" />
+    <meta
+      property="og:description"
+      content="Lokalna checklista na pierwsze 72 godziny kryzysu. Dane zostają w przeglądarce."
+    />
+    <title>72h — Plecak kryzysowy</title>
+    <link rel="icon" type="image/svg+xml" href="/plecak-kryzysowy-72h-bhp4all/favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var r = localStorage.getItem("kit-72h-v1");
+          if (!r) return;
+          var s = JSON.parse(r);
+          if (s && s.state && s.state.dark)
+            document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/plecak-kryzysowy-72h-bhp4all/assets/index-7lJywCFR.js"></script>
+    <link rel="stylesheet" crossorigin href="/plecak-kryzysowy-72h-bhp4all/assets/index-q8gVS_yi.css">
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+  </body>
+</html>
